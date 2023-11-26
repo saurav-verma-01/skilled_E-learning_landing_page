@@ -68,46 +68,41 @@ body {
   font-family: Plus Jakarta Sans;
 }
 
-.heading-xl,
-.heading-l,
-.heading-m {
+.heading-primary {
   color: var(--dark-blue);
-}
-
-.heading-xl {
-  font-size: 3.5rem;
-  font-weight: 800;
-  line-height: normal;
-}
-
-.heading-l {
   font-size: 2.5rem;
   font-weight: 800;
   line-height: normal;
 }
-
-.heading-m {
-  font-size: 2rem;
+.heading-secondary {
+  color: var(--white);
+  font-size: 1.5rem;
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.334;
 }
 
-.body-m,
-.body-s {
-  color: #83869a;
-}
-.body-m {
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 1.556;
-}
-
-.body-s {
+.body-text {
+  color: var(--light-gray);
   font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.75;
+  font-weight: 500;
+  line-height: 1.625;
+}
+.heading-tertiary {
+  color: var(--dark-blue);
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: normal;
 }
 
+.course-link {
+  color: var(--hot-pink);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.556rem;
+}
+.course-link:is(:hover, :focus) {
+  color: var(--light-pink);
+}
 /* Components */
 
 /* ======== Buttons ============ */
@@ -150,4 +145,48 @@ body {
 
 .btn.btn-3:is(:hover, :focus) {
   background: var(--gradient-2-hover), var(--gradient-2);
+}
+
+/* Resuables */
+
+.container {
+  width: 21.5rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 43rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 70rem;
+  }
+
+  .heading-primary {
+    color: var(--dark-blue);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .body-text {
+    color: var(--light-gray);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.556;
+  }
+  .heading-secondary {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  .heading-tertiary {
+    font-size: 1.5rem;
+  }
+  .body-text {
+    font-size: 1.125rem;
+    line-height: 1.5556;
+  }
 }
