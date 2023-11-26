@@ -66,6 +66,9 @@ input {
 
 body {
   font-family: Plus Jakarta Sans;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .heading-primary {
@@ -120,6 +123,7 @@ body {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75rem;
+  z-index: 10;
 }
 
 .btn.btn-1 {
