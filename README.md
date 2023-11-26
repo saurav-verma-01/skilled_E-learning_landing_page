@@ -1,88 +1,117 @@
-# Frontend Mentor - Skilled e-learning landing page
+# Frontend Mentor - Skilled e-learning landing page solution
 
-![Design preview for the Skilled e-learning landing page coding challenge](./preview.jpg)
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+## Overview
 
-**To do this challenge, you need a decent understanding of HTML and CSS.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+# Mobile View
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+![](./screenshots/mobile-view.png)
 
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes, some are for specific layouts. We also include WEBP and PNG versions and different resolutions of the hero image, so you can choose to use whichever format and resolution you like or even look into letting the browser choose which image to use based on specific conditions. For this, you can look into [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) to learn more.
+# Tablet View
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project. Our fonts always come from [Google Fonts](https://fonts.google.com/).
+![](./screenshots/tablet-view.png)
 
-## Building your project
+# Desktop View
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+![](./screenshots/desktop-view.png)
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Links
 
-## Deploying your project
+- Solution URL: [https://github.com/saurav-verma-01/skilled_E-learning_landing_page](https://github.com/saurav-verma-01/skilled_E-learning_landing_page)
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- Live Site URL: [https://skilled-webpage.netlify.app/](https://skilled-webpage.netlify.app/)
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## My process
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### Built with
 
-## Create a custom `README.md`
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- Responsive Images Using - Art Direction, Density Switching and Resolution Switching
+- Vite
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### What I learned
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+In completing the Skilled Landing Page challenge for Frontend Mentor, I delved into various technologies and best practices, honing my skills in modern web development. I embraced Semantic HTML5 markup for enhanced accessibility and structure. The use of CSS custom properties, Flexbox, and CSS Grid empowered me to create a flexible and visually appealing layout.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Adopting a mobile-first workflow enabled me to develop a responsive design that seamlessly adapts to various screen sizes. Implementing responsive images was a crucial aspect of performance optimization. Through Art Direction, Density Switching, and Resolution Switching, I ensured an optimal user experience on devices with different screen resolutions and pixel densities.
 
-## Submitting your solution
+Integrating React into the project not only provided a dynamic and efficient JavaScript library but also deepened my understanding of component-based architecture. Leveraging performance testing tools such as Lighthouse and PageSpeed Testing allowed me to fine-tune the site for optimal speed and efficiency.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+This project provided valuable hands-on experience, reinforcing my knowledge of responsive design principles, performance optimization strategies, and the effective use of modern web technologies. Overall, it was a journey of growth and skill enhancement in frontend development.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+## Responsive Image
 
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
+```react
+<picture className="hero-img">
+        <source
+          // srcset Attribute for Density switching based on DPR of the screen
+          srcSet={`${heroDesk1x} 1x, ${heroDesk2x} 2x`}
+          media="(min-width: 1280px)"
+          width={992}
+          height={937}
+        />
+        <source
+          // srcset Attribute for Density switching based on DPR of the screen
+          srcSet={`${heroTab1x} 1x, ${heroTab2x} 2x`}
+          media="(min-width: 768px)"
+          width={640}
+          height={640}
+        />
 
-## Sharing your solution
+        <img
+          // srcset Attribute for Density switching based on DPR of the screen
+          srcSet={`${heroMobile1x} 1x, ${heroMobile2x} 2x`}
+          // sizes attribute for resolution switching ( letting the browser decide which image to download based on the width of the image on screen)
+          sizes="(max-width: 767px) 69vw, (min-width: 768px) 84vw, 88vw"
+          src={heroMobile1x}
+          alt="hero image"
+          className="hero-img"
+          width={327}
+          height={301}
+        />
+      </picture>
+```
 
-There are multiple places you can share your solution:
+### Useful resources
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+- [Advanced CSS and Sass: Flexbox, Grid, Animations and More! - by Jonas Schmedtmann ](https://www.udemy.com/course/advanced-css-and-sass/) - This helped me for Learning Deeply about Responsive Images, Its techniques like Resolution Switching, Art Direction and Density Switching using Picture element and ssource attributes. This is the best in depth Advance Css Course where you will learn Advanced topic required in developing a webpage.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+## Author
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+- Frontend Mentor - [@Saurav-98](https://www.frontendmentor.io/profile/Saurav-98)
+- Twitter - [@SauravKverma22](https://twitter.com/SauravKverma22)
+- Github - [saurav-verma-01](https://github.com/saurav-verma-01)
+- Linkedin- [/in/saurav-dev/](https://www.linkedin.com/in/saurav-dev/)
 
-## Got feedback for us?
+## 🔗 Links
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+- [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/saurav-verma-01)
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurav-dev/)
+- [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SauravKverma22)
