@@ -1,4 +1,3 @@
-import "./App.css";
 import { Courses, Footer, Header, Hero } from "./components";
 
 function App() {
