@@ -1,3 +1,5 @@
+import HeroImg from "./HeroImg";
+
 const Hero = () => {
   return (
     <div className="container hero">
@@ -11,6 +13,8 @@ const Hero = () => {
           Get Started
         </a>
       </div>
+
+      <HeroImg />
     </div>
   );
 };
