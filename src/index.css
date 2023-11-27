@@ -356,10 +356,10 @@ body {
   }
   .hero-img {
     right: -40%;
-    bottom: -40%;
+    bottom: -35%;
   }
   .hero div {
-    width: 458px;
+    width: 468px;
     height: 360px;
   }
 }
