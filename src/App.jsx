@@ -2,7 +2,7 @@ import { Courses, Footer, Header, Hero } from "./components";
 
 function App() {
   return (
-    <main>
+    <main className="app">
       <Header />
       <Hero />
       <Courses />
